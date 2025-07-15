@@ -1,6 +1,6 @@
 # NexusBot 🤖
 
-NexusBot é um projeto de chatbot inteligente e multifuncional, desenvolvido com Python e o framework FastAPI. Ele utiliza o poder do modelo de IA generativa `gemini-1.5-flash-latest` da Google para fornecer respostas coesas e contextuais, tanto para texto quanto para imagens.
+NexusBot é um projeto de chatbot inteligente e multifuncional, desenvolvido com Python e o framework FastAPI. Ele utiliza o poder do modelo de IA generativa `gemini-2.5-flash` da Google para fornecer respostas coesas e contextuais, tanto para texto quanto para imagens.
 
 ## 🚀 Como Executar Localmente
 
@@ -33,9 +33,27 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-3. Configuração
-A aplicação precisa da sua chave da API do Google Gemini para funcionar.
+## 🔑 3. Configuração da Chave de API
 
-Na raiz do projeto, crie um arquivo chamado .env.
+Para que a aplicação funcione corretamente, é necessário fornecer a sua chave da API do **Google Gemini**.
 
-Dentro deste arquivo, adicione sua chave no seguinte formato:
+1. Na raiz do projeto, crie um arquivo chamado `.env`.
+2. Dentro deste arquivo, adicione sua chave no seguinte formato:
+
+```bash
+GEMINI_API_KEY="SUA_CHAVE_DE_API_AQUI"
+```
+
+## 🚀 4. Executando a Aplicação
+
+Com todas as dependências instaladas e a chave configurada, inicie o servidor com o comando abaixo:
+
+```bash
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+```
+
+## 💬 5. Acessando o Chatbot
+
+Abra seu navegador e acesse a URL abaixo para utilizar o chatbot localmente:
+
+[http://127.0.0.1:8000](http://127.0.0.1:8000)
