@@ -2,6 +2,17 @@
 
 NexusBot é um projeto de chatbot inteligente e multifuncional, desenvolvido com Python e o framework FastAPI. Ele utiliza o poder do modelo de IA generativa `gemini-2.5-flash` da Google para fornecer respostas coesas e contextuais, tanto para texto quanto para imagens.
 
+---
+
+## 🌐 Teste Online (Experimental)
+
+Você também pode testar o chatbot diretamente pela web por meio do seguinte link:
+
+🔗 [Acesse o chatbot online](https://nexusbot.zapto.org/)
+
+> ⚠️ **Aviso:** Essa versão online está em fase experimental e pode não estar disponível 100% do tempo. Para melhor estabilidade, recomendamos rodar o projeto localmente conforme instruções acima.
+
+
 ## 🚀 Como Executar Localmente
 
 Siga estes passos para rodar o projeto na sua máquina local.
