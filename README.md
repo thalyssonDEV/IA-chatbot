@@ -10,7 +10,7 @@ Você também pode testar o chatbot diretamente pela web por meio do seguinte li
 
 🔗 [Acesse o chatbot online](https://nexusbot.zapto.org/)
 
-> ⚠️ **Aviso:** Essa versão online está em fase experimental e pode não estar disponível 100% do tempo. Para melhor estabilidade, recomendamos rodar o projeto localmente conforme instruções acima.
+> ⚠️ **Aviso:** Essa versão online está em fase experimental e pode não estar disponível 100% do tempo. Para melhor estabilidade, recomendamos rodar o projeto localmente conforme instruções abaixo.
 
 
 ## 🚀 Como Executar Localmente
